@@ -1,0 +1,90 @@
+{
+  "name": "municipio/municipio",
+  "description": "Package bundle for Municipio based on Wordpress",
+  "license": "MIT",
+  "type": "metapackage",
+  "keywords": [
+    "municipio",
+    "composer",
+    "wordpress",
+    "wp"
+  ],
+  "authors": [
+    {
+      "name": "Whitespace",
+      "email": "dev@whitespace.se",
+      "homepage": "https://whitespace.se/municipio/"
+    }
+  ],
+  "homepage": "https://www.municipio.se",
+  "support": {
+    "issues": "https://github.com/municipio-se/municipio/issues",
+    "source": "https://github.com/municipio-se/municipio",
+    "docs": "https://docs.municipio.se"
+  },
+  "require": {
+    "php": ">=8.3",
+    "10up/elasticpress": "^5.3.1",
+    "clark-nikdel-powell/post-type-select-for-acf": "^1.0.1",
+    "composer/installers": "^2.3",
+    "enshrined/svg-sanitize": "^0.22.0",
+    "giggsey/libphonenumber-for-php": "^7.7.5",
+    "helsingborg-stad/acf-export-manager": "^1.0.12",
+    "jeradin/acf-dynamic-table-field": "dev-master",
+    "jeradin/acf-website-field": "dev-master",
+    "johannheyne/advanced-custom-fields-table-field": "dev-master",
+    "johnbillion/query-monitor": "^3.20",
+    "municipio/content-insights-for-editors": "^1.2.3",
+    "municipio/wp-plugin-hbg-component-library": "v25.x-dev",
+    "municipio/wp-plugin-hbg-content-scheduler": "v25.x-dev",
+    "municipio/wp-plugin-hbg-event-manager-integration": "v25.x-dev",
+    "municipio/wp-plugin-hbg-readspeaker-helper": "v25.x-dev",
+    "municipio/wp-plugin-modularity": "v25.x-dev",
+    "municipio/wp-plugin-modularity-contact-banner": "v25.x-dev",
+    "municipio/wp-plugin-modularity-form-builder": "v25.x-dev",
+    "municipio/wp-plugin-municipio-extended": "v25.x-dev",
+    "municipio/wp-theme-municipio": "v25.x-dev",
+    "oscarotero/env": "^2.1.1",
+    "roots/bedrock-autoloader": "^1.0.4",
+    "roots/bedrock-disallow-indexing": "^2.0",
+    "roots/wordpress": "^6.8.3",
+    "roots/wp-config": "^1.0.0",
+    "roots/wp-password-bcrypt": "^1.2.0",
+    "symfony/yaml": "^7.3.5",
+    "vlucas/phpdotenv": "^5.6.2",
+    "wpackagist-plugin/acf-extended": "^0.9.1.1",
+    "wpackagist-plugin/aryo-activity-log": "^2.11.2",
+    "wpackagist-plugin/autodescription": "^5.1.2",
+    "wpackagist-plugin/business-identity-login": ">=1.0.1",
+    "wpackagist-plugin/classic-widgets": "^0.3.0",
+    "wpackagist-plugin/disable-comments-rb": "^1.0.25",
+    "wpackagist-plugin/disable-wordpress-updates": "^1.8",
+    "wpackagist-plugin/kirki": "^5.1",
+    "wpackagist-plugin/redirection": "^5.5.2",
+    "wpackagist-plugin/two-factor": "^0.9.1",
+    "wpackagist-plugin/user-switching": "^1.11",
+    "wpackagist-plugin/wp-crontrol": "^1.19.3",
+    "wpackagist-plugin/wp-nested-pages": "^3.2.13",
+    "wpackagist-plugin/xml-sitemap-feed": "^5.5.9"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org",
+      "only": [
+        "wpackagist-plugin/*",
+        "wpackagist-theme/*"
+      ]
+    }
+  ],
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true,
+      "php-http/discovery": true,
+      "roots/wordpress-core-installer": true
+    },
+    "sort-packages": true
+  }
+}
