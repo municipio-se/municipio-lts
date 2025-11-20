@@ -43,6 +43,7 @@
     "municipio/wp-plugin-modularity-contact-banner": "v25.x-dev",
     "municipio/wp-plugin-modularity-form-builder": "v25.x-dev",
     "municipio/wp-plugin-municipio-extended": "v25.x-dev",
+    "municipio/wp-plugin-tracking-gdpr": "v25.x-dev",
     "municipio/wp-theme-municipio": "v25.x-dev",
     "oscarotero/env": "^2.1.1",
     "roots/bedrock-autoloader": "^1.0.4",
