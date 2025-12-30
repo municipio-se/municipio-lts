@@ -18,8 +18,8 @@
   ],
   "homepage": "https://www.municipio.se",
   "support": {
-    "issues": "https://github.com/municipio-se/municipio/issues",
-    "source": "https://github.com/municipio-se/municipio",
+    "issues": "https://github.com/municipio-se/municipio-lts/issues",
+    "source": "https://github.com/municipio-se/municipio-lts",
     "docs": "https://docs.municipio.se"
   },
   "require": {
