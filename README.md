@@ -18,24 +18,24 @@ for setup instructions.
 
 ### Core Components
 
-- **Municipio Theme**: The main theme with modern design and accessibility
+- **[Municipio Theme](https://github.com/municipio-se/wp-theme-municipio)**: The main theme with modern design and accessibility
   features
 - **WordPress Core**: Latest stable version
 - **Bedrock**: Dependency management and project structure
-- **Modularity**: Flexible content module system
-- **Component Library**: Reusable UI components made by Helsingborgs stad
-- **Municipio Extended**: Additional features and enhancements for Municipio
+- **[Modularity](https://github.com/municipio-se/wp-plugin-modularity)**: Flexible content module system
+- **[Component Library](https://github.com/municipio-se/wp-plugin-hbg-component-library)**: Reusable UI components made by Helsingborgs stad
+- **[Municipio Extended](https://github.com/municipio-se/wp-plugin-municipio-extended)**: Additional features and enhancements for Municipio
   made by Whitespace
 
 ### Key Plugins
 
 - **ElasticPress**: Enhanced and on-premise search functionality through
   Elasticsearch
-- **Event Manager Integration**: Integration with Helsingborgs stad’s event
+- **[Event Manager Integration](https://github.com/municipio-se/wp-plugin-hbg-event-manager-integration)**: Integration with Helsingborgs stad’s event
   database for municipalities in Skåne
-- **Content Scheduler**: Content publishing automation
-- **Tracking GDPR**: GDPR-compliant analytics, cookie consent and embedding
-- **Content Insights for Editors**: Easy way for content editors to keep track
+- **[Content Scheduler](https://github.com/municipio-se/wp-plugin-hbg-content-scheduler)**: Content publishing automation
+- **[Tracking GDPR](https://github.com/municipio-se/wp-plugin-tracking-gdpr)**: GDPR-compliant analytics, cookie consent and embedding
+- **[Content Insights for Editors](https://github.com/whitespace-se/content-insights-for-editors)**: Easy way for content editors to keep track
   of their work
 - **Nested Pages**: Improved page hierarchy management
 - **Redirection**: Manage URL redirects
