@@ -10,7 +10,7 @@ theme and ecosystem.
 ## Getting Started
 
 We recommend using the
-[Municipio LTS boilerplate](https://github.com/municipio-se/municipio-lts-boilerplate)
+[Municipio LTS deployment](https://github.com/municipio-se/municipio-lts-deployment) repo
 for new projects, which includes this bundle by default. Follow the readme there
 for setup instructions.
 
